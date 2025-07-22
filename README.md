@@ -1,5 +1,3 @@
-Sure! Here's the clean and error-free `README.md` content — ready to copy and paste directly into your GitHub project:
-
 ````markdown
 # 🎓 KLE Post Graduation Course Registration
 
@@ -31,7 +29,7 @@ Use these credentials to access the dashboard:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/kle-course-registration.git
+   git clone https://github.com/yuvarajpanditrathod/my-course-registration.git
 ````
 
 2. **Open the project:**
@@ -68,9 +66,6 @@ GitHub: [@your-username](https://github.com/your-username)
 
 ## 📄 License
 
-This project is licensed under the MIT License.
-
 ```
 
-Let me know if you want me to generate a `LICENSE` file or GitHub Pages deployment steps too.
 ```
