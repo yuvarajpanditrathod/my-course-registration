@@ -1,71 +1,67 @@
----
-
-# KLE Post Graduation Course Registration
+KLE Post Graduation Course Registration
 
 This is a responsive, single-page web application built using HTML, Bootstrap, and JavaScript that simulates a Post Graduation course registration system for KLE Technological University, Hubballi.
 
-## Features
+Features:
 
-* Landing page with university introduction and branding
-* Login and Register forms (dummy credentials for demo)
-* Student dashboard with:
+Landing page with university introduction and branding
 
-  * View available courses
-  * Register for a course
-  * Withdraw course (placeholder)
-  * Course details (placeholder)
-* Mobile-friendly, responsive design using Bootstrap 5
+Login and Register forms (dummy credentials for demo)
 
-## Demo Login Credentials
+Student dashboard with:
 
-Use these credentials to access the dashboard:
+View available courses
 
+Register for a course
+
+Withdraw course (placeholder)
+
+Course details (placeholder)
+
+Mobile-friendly, responsive design using Bootstrap 5
+
+Demo Login Credentials:
 Email: example.com
 Password: example
 
-## Screenshot Preview
+Screenshot Preview:
+KLE Logo Image – https://kletech.edu.in/images/logo.png
 
-\[KLE Logo Image – [https://kletech.edu.in/images/logo.png](https://kletech.edu.in/images/logo.png)]
+How to Run Locally:
 
-## How to Run Locally
+Clone this repository:
+git clone https://github.com/your-username/kle-course-registration.git
 
-1. Clone this repository:
+Open the project:
+cd kle-course-registration
 
-   git clone [https://github.com/your-username/kle-course-registration.git](https://github.com/your-username/kle-course-registration.git)
+Launch the app:
+Simply open index.html in any modern web browser.
 
-2. Open the project:
+Technologies Used:
 
-   cd kle-course-registration
+HTML5
 
-3. Launch the app:
+Bootstrap 5
 
-   Simply open `index.html` in any modern web browser.
+JavaScript (Vanilla)
 
-## Technologies Used
+Future Enhancements:
 
-* HTML5
-* Bootstrap 5
-* JavaScript (Vanilla)
+Connect to a real backend for storing registration data
 
-## Future Enhancements
+Admin panel for managing courses
 
-* Connect to a real backend for storing registration data
-* Admin panel for managing courses
-* Email notifications and user profile settings
+Email notifications and user profile settings
 
-## Author
-
+Author:
 Yuvaraj P Rathod
 Engineering in Computer Science
 GitHub: @your-username (replace with your actual GitHub username)
 
-## About
-
+About:
 KLE Technological University, Hubballi is one of Karnataka’s premier engineering institutions offering a wide range of technical programs.
-Website: [https://www.kletech.ac.in](https://www.kletech.ac.in)
+Website: https://www.kletech.ac.in
 
-## License
-
+License:
 This project is licensed under the MIT License.
-
----
