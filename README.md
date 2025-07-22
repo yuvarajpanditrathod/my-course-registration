@@ -1,71 +1,71 @@
-````markdown
-# 🎓 KLE Post Graduation Course Registration
+---
 
-This is a responsive, single-page web application built using **HTML**, **Bootstrap**, and **JavaScript** that simulates a Post Graduation course registration system for **KLE Technological University, Hubballi**.
+# KLE Post Graduation Course Registration
 
-## 🚀 Features
+This is a responsive, single-page web application built using HTML, Bootstrap, and JavaScript that simulates a Post Graduation course registration system for KLE Technological University, Hubballi.
 
-- Landing page with university introduction and branding
-- Login and Register forms (dummy credentials for demo)
-- Student dashboard with:
-  - View available courses
-  - Register for a course
-  - Withdraw course (placeholder)
-  - Course details (placeholder)
-- Mobile-friendly, responsive design using Bootstrap 5
+## Features
 
-## 🧪 Demo Login Credentials
+* Landing page with university introduction and branding
+* Login and Register forms (dummy credentials for demo)
+* Student dashboard with:
+
+  * View available courses
+  * Register for a course
+  * Withdraw course (placeholder)
+  * Course details (placeholder)
+* Mobile-friendly, responsive design using Bootstrap 5
+
+## Demo Login Credentials
 
 Use these credentials to access the dashboard:
 
-- **Email:** `example.com`
-- **Password:** `example`
+Email: example.com
+Password: example
 
-## 📸 Screenshot Preview
+## Screenshot Preview
 
-![KLE Logo](https://kletech.edu.in/images/logo.png)
+\[KLE Logo Image – [https://kletech.edu.in/images/logo.png](https://kletech.edu.in/images/logo.png)]
 
-## 🗂 How to Run Locally
+## How to Run Locally
 
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/yuvarajpanditrathod/my-course-registration.git
-````
+1. Clone this repository:
 
-2. **Open the project:**
+   git clone [https://github.com/your-username/kle-course-registration.git](https://github.com/your-username/kle-course-registration.git)
 
-   ```bash
+2. Open the project:
+
    cd kle-course-registration
-   ```
 
-3. **Launch the app:**
+3. Launch the app:
 
-   * Simply open `index.html` in any modern web browser.
+   Simply open `index.html` in any modern web browser.
 
-## 📌 Technologies Used
+## Technologies Used
 
 * HTML5
 * Bootstrap 5
 * JavaScript (Vanilla)
 
-## 📚 Future Enhancements
+## Future Enhancements
 
 * Connect to a real backend for storing registration data
 * Admin panel for managing courses
 * Email notifications and user profile settings
 
-## 👨‍💻 Author
+## Author
 
-**Yuvaraj P Rathod**
+Yuvaraj P Rathod
 Engineering in Computer Science
-GitHub: [@your-username](https://github.com/your-username)
+GitHub: @your-username (replace with your actual GitHub username)
 
-## 🏛 About
+## About
 
-[KLE Technological University, Hubballi](https://www.kletech.ac.in) is one of Karnataka’s premier engineering institutions offering a wide range of technical programs.
+KLE Technological University, Hubballi is one of Karnataka’s premier engineering institutions offering a wide range of technical programs.
+Website: [https://www.kletech.ac.in](https://www.kletech.ac.in)
 
-## 📄 License
+## License
 
-```
+This project is licensed under the MIT License.
 
-```
+---
