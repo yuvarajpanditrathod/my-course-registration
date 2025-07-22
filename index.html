@@ -275,7 +275,7 @@
                     <div class="text-center mb-4">
                         <img src="https://ui-avatars.com/api/?name=John+Doe&background=0056b3&color=fff&size=100" class="rounded-circle mb-2" alt="Profile">
                         <h5 id="sidebar-username">John Doe</h5>
-                        <p class="text-muted small">BE Computer Science - Semester 7</p>
+                        <p class="text-muted small">BE Computer Science - Semester 5</p>
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -322,7 +322,7 @@
                     <div id="dashboard-home" class="dashboard-view">
                         <h2 class="mb-4">Student Dashboard</h2>
                         <div class="alert alert-info">
-                            <i class="fas fa-info-circle me-2"></i> Welcome to your BE Computer Science Course Registration Portal. The last date to register for Semester 7 courses is <strong>August 10, 2025</strong>.
+                            <i class="fas fa-info-circle me-2"></i> Welcome to your BE Computer Science Course Registration Portal. The last date to register for Semester 5 courses is <strong>June 30, 2025</strong>.
                         </div>
 
                         <div class="row mt-4">
@@ -387,14 +387,14 @@
                                             <h6 class="mb-1">Semester 5 Course Registration</h6>
                                             <small class="text-muted">3 days ago</small>
                                         </div>
-                                        <p class="mb-1">Registration for Semester 7 courses is now open. Deadline is August 10, 2025.</p>
+                                        <p class="mb-1">Registration for Semester 5 courses is now open. Deadline is June 30, 2025.</p>
                                     </div>
                                     <div class="list-group-item">
                                         <div class="d-flex w-100 justify-content-between">
                                             <h6 class="mb-1">Industrial Visit - Infosys Campus</h6>
                                             <small class="text-muted">1 week ago</small>
                                         </div>
-                                        <p class="mb-1">BE Computer Science students are invited for an industrial visit to Infosys Campus on July 15, 2023.</p>
+                                        <p class="mb-1">BE Computer Science students are invited for an industrial visit to Infosys Campus on July 15, 2025.</p>
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +404,7 @@
                     <!-- View Courses -->
                     <div id="dashboard-courses" class="dashboard-view hidden">
                         <div class="d-flex justify-content-between align-items-center mb-4">
-                            <h2>Available Courses - Semester 7</h2>
+                            <h2>Available Courses - Semester 5</h2>
                             <div>
                                 <button class="btn btn-outline-primary me-2" onclick="showDashboardView('register')">
                                     <i class="fas fa-plus me-1"></i> Register New Course
@@ -484,7 +484,7 @@
 
                     <!-- Register Courses -->
                     <div id="dashboard-register" class="dashboard-view hidden">
-                        <h2 class="mb-4">Course Registration - Semester 7</h2>
+                        <h2 class="mb-4">Course Registration - Semester 5</h2>
                         
                         <div class="card mb-4">
                             <div class="card-header bg-primary text-white">
@@ -493,8 +493,8 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <p><strong>Current Semester:</strong> Semester 7</p>
-                                        <p><strong>Registration Window:</strong> June 1 - August 10, 2025</p>
+                                        <p><strong>Current Semester:</strong> Semester 5</p>
+                                        <p><strong>Registration Window:</strong> June 1 - June 30, 2025</p>
                                     </div>
                                     <div class="col-md-6">
                                         <p><strong>Registered Credits:</strong> 9/18</p>
@@ -634,7 +634,7 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <p><strong>Current CGPA:</strong> 8.42</p>
-                                        <p><strong>Current Semester:</strong> Semester 7</p>
+                                        <p><strong>Current Semester:</strong> Semester 5</p>
                                     </div>
                                     <div class="col-md-4">
                                         <p><strong>Credits Completed:</strong> 78/160</p>
@@ -809,7 +809,7 @@
                         <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
                     </div>
                     <div class="mt-3">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38Gnn54j3ITix2bZrwY7uuaqfStzmSKBkZA&s" alt="KLE Logo" style="height: 40px;">
+                        <img src="https://learn.kletech.ac.in/theme/image.php/university/theme/1712427483/logo" alt="KLE Logo" style="height: 40px;">
                     </div>
                 </div>
             </div>
@@ -888,7 +888,7 @@
             document.getElementById('sidebar-username').textContent = username;
             
             // Set some registered courses for demo
-            document.getElementById('registered-courses-count').textContent = '2';
+            document.getElementById('registered-courses-count').textContent = '3';
         }
         
         // Logout function
@@ -939,29 +939,41 @@
             
             // Set modal content based on course
             let content = '';
-            if (courseCode === 'CS601') {
+            if (courseCode === 'CS501') {
                 content = `
-                    <h5>Advanced Algorithms</h5>
+                    <h5>Advanced Java Programming</h5>
                     <p><strong>Professor:</strong> Dr. Sanjay Patel</p>
                     <p><strong>Credits:</strong> 4</p>
                     <p><strong>Schedule:</strong> Monday/Wednesday 10:00-11:30</p>
                     <p><strong>Location:</strong> CS Building Room 205</p>
-                    <p><strong>Description:</strong> This course covers advanced algorithm design techniques including divide-and-conquer, dynamic programming, greedy algorithms, and NP-completeness. Students will implement and analyze algorithms for various computational problems.</p>
-                    <p><strong>Prerequisites:</strong> CS501 (Data Structures) or equivalent</p>
-                    <p><strong>Textbook:</strong> "Algorithm Design" by Kleinberg and Tardos</p>
+                    <p><strong>Description:</strong> This course covers advanced Java concepts including multithreading, networking, JDBC, and JavaFX. Students will develop complex applications using design patterns and best practices.</p>
+                    <p><strong>Prerequisites:</strong> CS301 (Object Oriented Programming) or equivalent</p>
+                    <p><strong>Textbook:</strong> "Core Java Volume II - Advanced Features" by Cay Horstmann</p>
                     <p><strong>Seats Available:</strong> 12/30</p>
                 `;
-            } else if (courseCode === 'CS602') {
+            } else if (courseCode === 'CS502') {
                 content = `
-                    <h5>Machine Learning</h5>
+                    <h5>Web Technologies</h5>
                     <p><strong>Professor:</strong> Dr. Anjali Deshpande</p>
                     <p><strong>Credits:</strong> 4</p>
                     <p><strong>Schedule:</strong> Tuesday/Thursday 2:00-3:30</p>
-                    <p><strong>Location:</strong> AI Lab Room 101</p>
-                    <p><strong>Description:</strong> Introduction to machine learning concepts including supervised and unsupervised learning, neural networks, and deep learning. Hands-on projects with real-world datasets.</p>
-                    <p><strong>Prerequisites:</strong> CS502 (Probability and Statistics) or equivalent</p>
-                    <p><strong>Textbook:</strong> "Pattern Recognition and Machine Learning" by Bishop</p>
+                    <p><strong>Location:</strong> IT Lab Room 101</p>
+                    <p><strong>Description:</strong> Comprehensive study of web development technologies including HTML5, CSS3, JavaScript, React, Node.js, and RESTful APIs. Hands-on projects building full-stack web applications.</p>
+                    <p><strong>Prerequisites:</strong> CS302 (Data Structures) or equivalent</p>
+                    <p><strong>Textbook:</strong> "Learning Web Design" by Jennifer Niederst Robbins</p>
                     <p><strong>Seats Available:</strong> 8/25</p>
+                `;
+            } else if (courseCode === 'CS503') {
+                content = `
+                    <h5>Machine Learning</h5>
+                    <p><strong>Professor:</strong> Dr. Rajesh Kumar</p>
+                    <p><strong>Credits:</strong> 3</p>
+                    <p><strong>Schedule:</strong> Monday/Friday 1:00-2:30</p>
+                    <p><strong>Location:</strong> AI Lab Room 102</p>
+                    <p><strong>Description:</strong> Introduction to machine learning concepts including supervised and unsupervised learning, neural networks, and deep learning. Hands-on projects with real-world datasets using Python.</p>
+                    <p><strong>Prerequisites:</strong> CS401 (Probability and Statistics) or equivalent</p>
+                    <p><strong>Textbook:</strong> "Pattern Recognition and Machine Learning" by Bishop</p>
+                    <p><strong>Seats Available:</strong> 15/20</p>
                 `;
             } else {
                 content = `<p>Details for ${courseCode} will be shown here.</p>`;
@@ -984,9 +996,9 @@
         // Submit registration
         function submitRegistration() {
             const selectedCourses = [];
-            if (document.getElementById('course-cs601').checked) selectedCourses.push('CS601');
-            if (document.getElementById('course-cs602').checked) selectedCourses.push('CS602');
-            if (document.getElementById('course-cs603').checked) selectedCourses.push('CS603');
+            if (document.getElementById('course-cs501').checked) selectedCourses.push('CS501');
+            if (document.getElementById('course-cs502').checked) selectedCourses.push('CS502');
+            if (document.getElementById('course-cs503').checked) selectedCourses.push('CS503');
             
             if (selectedCourses.length === 0) {
                 alert('Please select at least one course to register.');
@@ -1000,8 +1012,8 @@
         // Submit withdrawal
         function submitWithdrawal() {
             const selectedCourses = [];
-            if (document.getElementById('withdraw-cs601').checked) selectedCourses.push('CS601');
-            if (document.getElementById('withdraw-cs602').checked) selectedCourses.push('CS602');
+            if (document.getElementById('withdraw-cs501').checked) selectedCourses.push('CS501');
+            if (document.getElementById('withdraw-cs502').checked) selectedCourses.push('CS502');
             
             if (selectedCourses.length === 0) {
                 alert('Please select at least one course to withdraw.');
