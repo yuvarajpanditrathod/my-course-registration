@@ -21,16 +21,14 @@ Course details (placeholder)
 Mobile-friendly, responsive design using Bootstrap 5
 
 Demo Login Credentials:
-Email: example.com
+Email: example@example.com
 Password: example
 
-Screenshot Preview:
-KLE Logo Image – https://kletech.edu.in/images/logo.png
 
 How to Run Locally:
 
 Clone this repository:
-git clone https://github.com/your-username/kle-course-registration.git
+git clone https://github.com/yuvarajpanditrathod/my-course-registration.git
 
 Open the project:
 cd kle-course-registration
@@ -57,7 +55,7 @@ Email notifications and user profile settings
 Author:
 Yuvaraj P Rathod
 Engineering in Computer Science
-GitHub: @your-username (replace with your actual GitHub username)
+GitHub: @yuvarajpanditrathod
 
 About:
 KLE Technological University, Hubballi is one of Karnataka’s premier engineering institutions offering a wide range of technical programs.
